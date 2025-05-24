@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
-              color: Colors.red,
+              color: Color.fromARGB(255, 236, 226, 37),
             ),
           ),
         ),
@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
           color: Colors.black,
           child: Container(
             margin: EdgeInsets.all(30),
-            color: Colors.red,
+            color: Color.fromARGB(255, 0, 126, 223),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
